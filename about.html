@@ -1,90 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me &mdash; Ethan Constantin ePortfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ethan Constantin</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="site-wrapper">
-
-  <header class="site-header" role="banner">
-    <div class="container">
-      <a href="index.html" class="site-header__brand" aria-label="Home">
-        <span class="site-header__name">Ethan Constantin</span>
-        <span class="site-header__course">COOP 2100 &mdash; Professional ePortfolio</span>
-      </a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="career.html">Career</a>
-        <a href="goals.html">Goals</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="inner-hero">
-    <div class="container">
-      <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; About Me</p>
-      <h1>About Me</h1>
-    </div>
-  </div>
-
-  <main id="main-content">
-    <div class="container">
-
-      <section class="section" aria-labelledby="bio-heading">
-        <h2 class="section-heading" id="bio-heading">Biography</h2>
-        <div class="about-card">
-          <p>I am a Computer Science student at York University with a Minor in Statistics. My academic focus lies at the intersection of quantitative analysis and scalable software engineering. Beyond the classroom, I serve as the VP of Engineering for the AI &amp; Data Society and the Head Event Coordinator for the York University Ski and Snowboard Club. This portfolio serves as a dynamic virtual identity, documenting my journey through my education and my COOP placement.</p>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="nav-brand">Ethan Constantin</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html" style="color: var(--brand-red);">About Me</a>
+                    <a href="career.html">Career</a>
+                    <a href="goals.html">Goals & Portfolios</a>
+                </div>
+            </nav>
         </div>
-      </section>
+    </header>
 
-      <hr class="divider" />
+    <main class="container">
+        <h1>About Me</h1>
+        
+        <div class="grid-2" style="margin-top: 2rem;">
+            <div class="card">
+                <h3>Academic Focus</h3>
+                <p>I am a Computer Science student at York University, currently pursuing a Minor in Statistics. My academic and professional focus lies at the intersection of quantitative analysis and scalable software engineering. I am deeply passionate about applying mathematical rigor and automation to real-world technical problems.</p>
+            </div>
 
-      <section class="section" aria-labelledby="roles-heading">
-        <h2 class="section-heading" id="roles-heading">Current Roles &amp; Affiliations</h2>
-        <div class="role-grid">
-
-          <div class="role-card">
-            <div class="role-card__icon-wrap">&#128187;</div>
-            <p class="role-card__title">VP of Engineering</p>
-            <p class="role-card__org">AI &amp; Data Society &mdash; York University</p>
-            <ul>
-              <li>Overseeing engineering initiatives and technical projects for the society.</li>
-              <li>Bridging academic data science concepts with applied software development.</li>
-            </ul>
-          </div>
-
-          <div class="role-card">
-            <div class="role-card__icon-wrap">&#9968;&#65039;</div>
-            <p class="role-card__title">Head Event Coordinator</p>
-            <p class="role-card__org">Ski &amp; Snowboard Club &mdash; York University</p>
-            <ul>
-              <li>Planning and executing large-scale club events, including multi-day ski trips.</li>
-              <li>Managing vendor partnerships, budgeting, and safety for 100+ attendees.</li>
-            </ul>
-          </div>
-
+            <div class="card">
+                <h3>Campus Leadership</h3>
+                <p>Beyond my coursework, I am heavily involved in campus organizations. I serve as the VP of Engineering for the AI & Data Society, where I organize technical workshops and community outreach. Additionally, I am the Head Event Coordinator for the York University Ski and Snowboard Club (YUSSC), managing large-scale logistics, vendor partnerships, and budgets.</p>
+            </div>
         </div>
-      </section>
+    </main>
 
-    </div>
-  </main>
-
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <span class="footer__name">Ethan Constantin</span>
-      <div class="footer__links">
-        <a href="mailto:ethan.constantin@example.com">ethan.constantin@example.com</a>
-        <a href="https://www.linkedin.com/in/ethanConstantin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </div>
-      <div class="footer__divider"></div>
-      <span class="footer__updated">Last Updated: April 2026</span>
-    </div>
-  </footer>
-
-</div>
+    <footer>
+        <div class="container">
+            <p>Ethan Constantin | <a href="mailto:constantinethan@gmail.com">constantinethan@gmail.com</a> | <a href="https://www.linkedin.com/in/ethan-constantin-b8b09223b" target="_blank">LinkedIn</a></p>
+            <p style="margin-top: 0.5rem;">Last Updated: April 2026</p>
+        </div>
+    </footer>
 </body>
 </html>
