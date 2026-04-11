@@ -1,145 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Career &mdash; Ethan Constantin ePortfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career - Ethan Constantin</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="site-wrapper">
-
-  <header class="site-header" role="banner">
-    <div class="container">
-      <a href="index.html" class="site-header__brand" aria-label="Home">
-        <span class="site-header__name">Ethan Constantin</span>
-        <span class="site-header__course">COOP 2100 &mdash; Professional ePortfolio</span>
-      </a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="career.html" class="active">Career</a>
-        <a href="goals.html">Goals</a>
-      </nav>
-    </div>
-  </header>
-
-  <div class="inner-hero">
-    <div class="container">
-      <p class="breadcrumb"><a href="index.html">Home</a> &rsaquo; Career</p>
-      <h1>Career: Education &amp; Experience</h1>
-    </div>
-  </div>
-
-  <main id="main-content">
-    <div class="container">
-
-      <section class="section" aria-labelledby="education-heading">
-        <h2 class="section-heading" id="education-heading">Education</h2>
-        <div class="timeline">
-
-          <div class="timeline-entry">
-            <div class="timeline-entry__header">
-              <p class="timeline-entry__title">BSc &mdash; Computer Science Major, Statistics Minor</p>
-              <span class="timeline-entry__date">Expected 2028</span>
-            </div>
-            <p class="timeline-entry__summary">York University &mdash; Academic focus at the intersection of quantitative analysis and scalable software engineering.</p>
-            <div class="skills-row">
-              <span class="skill-chip">Computer Science</span>
-              <span class="skill-chip">Statistics</span>
-              <span class="skill-chip">AI &amp; Data Society VP Eng.</span>
-            </div>
-          </div>
-
-          <div class="timeline-entry">
-            <div class="timeline-entry__header">
-              <p class="timeline-entry__title">Ontario Secondary School Diploma</p>
-              <span class="timeline-entry__date">2019 &ndash; 2023</span>
-            </div>
-            <p class="timeline-entry__summary">Thornlea Secondary School &mdash; Foundational coursework in mathematics and computer studies.</p>
-          </div>
-
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="nav-brand">Ethan Constantin</a>
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Me</a>
+                    <a href="career.html" style="color: var(--brand-red);">Career</a>
+                    <a href="goals.html">Goals & Portfolios</a>
+                </div>
+            </nav>
         </div>
-      </section>
+    </header>
 
-      <hr class="divider" />
-
-      <section class="section" aria-labelledby="experience-heading">
-        <h2 class="section-heading" id="experience-heading">Professional Experience</h2>
-        <div class="timeline">
-
-          <div class="timeline-entry">
-            <div class="timeline-entry__header">
-              <p class="timeline-entry__title">Treasury Analyst Co-op &mdash; President&rsquo;s Choice Financial</p>
-              <span class="timeline-entry__date">Jan 2026 &ndash; Present</span>
-            </div>
-            <p class="timeline-entry__summary">Applying mathematical modeling and financial discipline to corporate operations.</p>
-            <div class="skills-row">
-              <span class="skill-chip">Quantitative Analytics</span>
-              <span class="skill-chip">Python Data Pipelines</span>
-              <span class="skill-chip">Automation</span>
-            </div>
-          </div>
-
-          <div class="timeline-entry">
-            <div class="timeline-entry__header">
-              <p class="timeline-entry__title">Freelance Software Developer</p>
-              <span class="timeline-entry__date">Dec 2025 &ndash; Jan 2026</span>
-            </div>
-            <p class="timeline-entry__summary">Modernized client infrastructure and remediated critical production latency issues.</p>
-            <div class="skills-row">
-              <span class="skill-chip">Full-Stack Development</span>
-              <span class="skill-chip">Next.js</span>
-              <span class="skill-chip">System Optimization</span>
-            </div>
-          </div>
-
-          <div class="timeline-entry">
-            <div class="timeline-entry__header">
-              <p class="timeline-entry__title">Head Event Coordinator &mdash; York University Ski &amp; Snowboard Club</p>
-              <span class="timeline-entry__date">Apr 2025 &ndash; Present</span>
-            </div>
-            <p class="timeline-entry__summary">Coordinating large-scale events and managing vendor partnerships for 100+ student attendees.</p>
-            <div class="skills-row">
-              <span class="skill-chip">Project Management</span>
-              <span class="skill-chip">Budgeting</span>
-              <span class="skill-chip">Logistics</span>
-            </div>
-          </div>
-
+    <main class="container">
+        <h1>Career: Education & Experience</h1>
+        
+        <h2 style="margin-top: 3rem;">Education</h2>
+        <div class="card">
+            <h3>York University</h3>
+            <p style="margin-bottom: 0; color: var(--brand-navy); font-weight: 600;">Bachelor of Science, Computer Science Major, Statistics Minor</p>
+            <p>Expected Graduation: April 2028</p>
         </div>
-      </section>
 
-      <hr class="divider" />
-
-      <section class="section" aria-labelledby="resume-heading">
-        <h2 class="section-heading" id="resume-heading">R&eacute;sum&eacute;</h2>
-        <div class="resume-cta">
-          <div class="resume-cta__text">
-            <strong>Full PDF R&eacute;sum&eacute;</strong>
-            <p>Detailed experience, technical skills, academic achievements, and references available upon request.</p>
-          </div>
-          <a href="resume.pdf" class="resume-cta__btn" aria-label="View full PDF r&eacute;sum&eacute;">
-            &#8681;&nbsp; View Full PDF R&eacute;sum&eacute;
-          </a>
+        <h2 style="margin-top: 3rem;">Professional Experience</h2>
+        
+        <div class="card">
+            <h3>Treasury Analyst Co-op</h3>
+            <p style="font-weight: 600; color: var(--brand-navy); margin-bottom: 0.5rem;">President's Choice Financial | Jan 2026 - Present</p>
+            <p><strong>Skills Used:</strong> Quantitative Analytics, Python Data Pipelines, Automation.</p>
+            <p><strong>Summary:</strong> Applying mathematical modeling and strict financial discipline to optimize corporate operations and reporting.</p>
         </div>
-      </section>
 
-    </div>
-  </main>
+        <div class="card">
+            <h3>Freelance Software Developer</h3>
+            <p style="font-weight: 600; color: var(--brand-navy); margin-bottom: 0.5rem;">Self-Employed | Dec 2025 - Jan 2026</p>
+            <p><strong>Skills Used:</strong> Full-stack development, Next.js, System Optimization, React.</p>
+            <p><strong>Summary:</strong> Modernized client web infrastructure, achieving a ~40% reduction in page load times via server-side caching and custom CMS implementation.</p>
+        </div>
 
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <span class="footer__name">Ethan Constantin</span>
-      <div class="footer__links">
-        <a href="mailto:ethan.constantin@example.com">ethan.constantin@example.com</a>
-        <a href="https://www.linkedin.com/in/ethanConstantin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </div>
-      <div class="footer__divider"></div>
-      <span class="footer__updated">Last Updated: April 2026</span>
-    </div>
-  </footer>
+        <div class="card">
+            <h3>Head Event Coordinator</h3>
+            <p style="font-weight: 600; color: var(--brand-navy); margin-bottom: 0.5rem;">York University Ski & Snowboard Club (YUSSC) | April 2025 - Present</p>
+            <p><strong>Skills Used:</strong> Project Management, Budgeting, Logistics, Vendor Relations.</p>
+            <p><strong>Summary:</strong> Coordinating comprehensive logistics, securing sponsorships, and ensuring safety protocols for massive student events and trips.</p>
+        </div>
 
-</div>
+        <div style="margin-top: 3rem; text-align: center;">
+            <a href="#" class="btn">View Full PDF Resume</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Ethan Constantin | <a href="mailto:constantinethan@gmail.com">constantinethan@gmail.com</a> | <a href="https://www.linkedin.com/in/ethan-constantin-b8b09223b" target="_blank">LinkedIn</a></p>
+            <p style="margin-top: 0.5rem;">Last Updated: April 2026</p>
+        </div>
+    </footer>
 </body>
 </html>
